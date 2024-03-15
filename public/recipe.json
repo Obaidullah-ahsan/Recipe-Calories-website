@@ -1,0 +1,80 @@
+[
+    {
+        "recipe_id": "1",
+        "recipe_name": "Savory Mushroom Risotto",
+        "short_description": "A creamy and comforting Italian classic with earthy mushroom flavors.",
+        "ingredients": [
+            "150 g Arborio rice",
+            "200 g Mushrooms",
+            "250 g Chicken"
+        ],
+        "preparing_time": "45 minutes",
+        "calories": "350 calories",
+        "recipe_image": "https://i.ibb.co/NKqbzGs/onder-ortel-w-o-NVTKIcmg-unsplash.jpg"
+    },
+    {
+        "recipe_id": "2",
+        "recipe_name": "Spicy Thai Curry",
+        "short_description": "An aromatic and flavorful Thai curry with a kick of spice.",
+        "ingredients": [
+            "100 ml Coconut milk",
+            "Red curry paste",
+            "300 g Chicken"
+        ],
+        "preparing_time": "30 minutes",
+        "calories": "400 calories",
+        "recipe_image": "https://i.ibb.co/THrgTNZ/emy-Xo-Byi-Bym-X20-unsplash.jpg"
+    },
+    {
+        "recipe_id": "3",
+        "recipe_name": "Grilled Salmon with Lemon Herb Butter",
+        "short_description": "Juicy grilled salmon topped with a zesty lemon herb butter sauce.",
+        "ingredients": [
+            "Salmon fillets",
+            "100 g Butter",
+            "150 ml Lemon"
+        ],
+        "preparing_time": "20 minutes",
+        "calories": "300 calories",
+        "recipe_image": "https://i.ibb.co/1Jcs9dw/ca-creative-bp-PTl-XWTOvg-unsplash.jpg"
+    },
+    {
+        "recipe_id": "4",
+        "recipe_name": "Vegetable Stir-Fry",
+        "short_description": "A colorful and nutritious stir-fry featuring an array of fresh vegetables.",
+        "ingredients": [
+            "130 g Bell peppers",
+            " 180 g Broccoli",
+            "220 g Carrots"
+        ],
+        "preparing_time": "25 minutes",
+        "calories": "250 calories",
+        "recipe_image": "https://i.ibb.co/4JddJWY/sirasit-gullasu-Wq-QZl5-g0jk-unsplash.jpg"
+    },
+    {
+        "recipe_id": "5",
+        "recipe_name": "Homestyle Chicken Pot Pie",
+        "short_description": "Classic comfort food with tender chicken and a flaky pastry crust.",
+        "ingredients": [
+            "400 g Chicken",
+            "140 g Peas",
+            "170 g Carrots"
+        ],
+        "preparing_time": "50 minutes",
+        "calories": "450 calories",
+        "recipe_image": "https://i.ibb.co/f9gpkPx/priscilla-du-preez-2-RXt6-CQY-0c-unsplash.jpg"
+    },
+    {
+        "recipe_id": "6",
+        "recipe_name": "Caprese Salad",
+        "short_description": "A simple and refreshing Italian salad with ripe tomatoes, fresh mozzarella, and basil.",
+        "ingredients": [
+            "200 g Tomatoes",
+            "150 g Mozzarella",
+            "170 g Basil"
+        ],
+        "preparing_time": "15 minutes",
+        "calories": "200 calories",
+        "recipe_image": "https://i.ibb.co/HnXppGQ/anna-pelzer-IGf-IGP5-ONV0-unsplash.jpg"
+    }
+]
