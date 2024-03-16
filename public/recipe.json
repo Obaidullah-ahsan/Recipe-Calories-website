@@ -29,7 +29,7 @@
     },
     {
         "recipe_id": "3",
-        "recipe_name": "Grilled Salmon with Lemon Herb Butter",
+        "recipe_name": "Grilled Salmon",
         "short_description": "Juicy grilled salmon topped with a zesty lemon herb butter sauce.",
         "ingredients": [
             "Salmon fillets",
@@ -69,7 +69,7 @@
     {
         "recipe_id": "6",
         "recipe_name": "Caprese Salad",
-        "short_description": "A simple and refreshing Italian salad with ripe tomatoes, fresh mozzarella, and basil.",
+        "short_description": "A simple and refreshing Italian salad with ripe tomatoes, fresh mozzarella.",
         "ingredients": [
             "200 g Tomatoes",
             "150 g Mozzarella",
