@@ -13,7 +13,7 @@ function App() {
         <Navbar></Navbar>
         <Banner></Banner>
         <OurRecipes></OurRecipes>
-        <div className='flex'>
+        <div className='flex gap-6'>
           <RecipeCards></RecipeCards>
           <Sidebar></Sidebar>
         </div>

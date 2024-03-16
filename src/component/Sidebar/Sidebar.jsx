@@ -1,6 +1,6 @@
 const Sidebar = () => {
     return (
-        <div className="w-[40%]">
+        <div className="w-[40%] border rounded-xl">
             
         </div>
     );

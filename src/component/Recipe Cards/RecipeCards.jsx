@@ -9,7 +9,7 @@ const RecipeCards = () => {
             .then(data => setCards(data))
     }, [])
     return (
-        <div className="grid grid-cols-2 w-[60%]">
+        <div className="grid grid-cols-2 gap-6 w-[60%]">
             {
                 cards.map(card => <RecipeCard key={card.recipe_id} card={card}></RecipeCard>)
             }
