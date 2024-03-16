@@ -2,6 +2,8 @@ import './App.css'
 import Banner from './component/Banner/Banner'
 import Navbar from './component/Navbar/Navbar'
 import OurRecipes from './component/Our Recipes/OurRecipes'
+import RecipeCards from './component/Recipe Cards/RecipeCards'
+import Sidebar from './component/Sidebar/Sidebar'
 
 function App() {
 
@@ -11,6 +13,10 @@ function App() {
         <Navbar></Navbar>
         <Banner></Banner>
         <OurRecipes></OurRecipes>
+        <div className='flex'>
+          <RecipeCards></RecipeCards>
+          <Sidebar></Sidebar>
+        </div>
       </div>
     </div>
   )
