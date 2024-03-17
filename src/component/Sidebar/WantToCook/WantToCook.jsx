@@ -1,6 +1,5 @@
 const WantToCook = ({ cook, idx, handlepreparing }) => {
     const {recipe_id, recipe_name, preparing_time, calories } = cook;
-    console.log(cook)
     return (
         <tbody className="bg-[#28282808]">
             <tr>

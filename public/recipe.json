@@ -2,7 +2,7 @@
     {
         "recipe_id": "1",
         "recipe_name": "Savory Mushroom Risotto",
-        "short_description": "A creamy and comforting Italian classic with earthy mushroom flavors.",
+        "short_description": "A creamy and comforting Italian classic with earthy mushroom.",
         "ingredients": [
             "150 g Arborio rice",
             "200 g Mushrooms",
@@ -43,7 +43,7 @@
     {
         "recipe_id": "4",
         "recipe_name": "Vegetable Stir-Fry",
-        "short_description": "A colorful and nutritious stir-fry featuring an array of fresh vegetables.",
+        "short_description": "A colorful and nutritious stir-fry array of fresh vegetables.",
         "ingredients": [
             "130 g Bell peppers",
             " 180 g Broccoli",
@@ -69,7 +69,7 @@
     {
         "recipe_id": "6",
         "recipe_name": "Caprese Salad",
-        "short_description": "A simple and refreshing Italian salad with ripe tomatoes, fresh mozzarella.",
+        "short_description": "A simple and refreshing Italian salad with tomatoes, fresh mozzarella.",
         "ingredients": [
             "200 g Tomatoes",
             "150 g Mozzarella",

@@ -26,10 +26,10 @@ function App() {
   const handlepreparing = (id) => {
     const newWantToCook = wantToCook.filter(cook => cook.recipe_id !== id)
     setWantToCook(newWantToCook)
-    const CurrentlyCooking = wantToCook.filter(CurrentlyCook => CurrentlyCook.recipe_id === id)
-    setPreparing(CurrentlyCooking)
+    const CurrentlyCooking = wantToCook.filter(CurrentlyCook => CurrentlyCook.recipe_id === id);
+    const newCurrenlyCooking = [...preparing,CurrentlyCooking]
+    setPreparing(newCurrenlyCooking)
   }
-  console.log(preparing);
 
   return (
     <div className='md:max-w-7xl md:mx-auto'>
@@ -39,7 +39,7 @@ function App() {
         <OurRecipes></OurRecipes>
         <div className='flex gap-6'>
           <RecipeCards handleWantToCook={handleWantToCook}></RecipeCards>
-          <Sidebar handlepreparing={handlepreparing} wantToCook={wantToCook}></Sidebar>
+          <Sidebar handlepreparing={handlepreparing} wantToCook={wantToCook} preparing={preparing}></Sidebar>
           <ToastContainer />
         </div>
       </div>
