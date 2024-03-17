@@ -2,7 +2,7 @@ import Ingredient from "./Ingredient/Ingredient";
 import { CiClock1 } from "react-icons/ci";
 import { FaFire } from "react-icons/fa";
 
-const RecipeCard = ({ card , handleWantToCook}) => {
+const RecipeCard = ({ card, handleWantToCook }) => {
     const { recipe_id, recipe_name, recipe_image, short_description, ingredients, preparing_time, calories } = card;
     return (
         <div className="border rounded-xl p-6 space-y-3">
@@ -28,7 +28,7 @@ const RecipeCard = ({ card , handleWantToCook}) => {
                     <p>{calories}</p>
                 </div>
             </div>
-            <button onClick={()=>handleWantToCook(card)} className="btn rounded-full font-bold bg-[#0BE58A]">Want to Cook</button>
+            <button onClick={() => handleWantToCook(card, recipe_id)} className="btn rounded-full font-bold bg-[#0BE58A]">Want to Cook</button>
         </div>
     );
 };
