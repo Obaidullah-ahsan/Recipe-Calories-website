@@ -38,7 +38,7 @@ const Sidebar = ({ wantToCook, handlepreparing, preparing }) => {
                             </tr>
                         </thead>
                         {
-                            preparing.map((prepared,idx) => <CurrentlyCooking key={idx} prepared={prepared}></CurrentlyCooking>)
+                            preparing.map((prepared,idx) => <CurrentlyCooking key={idx} idx={idx} prepared={prepared}></CurrentlyCooking>)
                         }
                     </table>
                 </div>
